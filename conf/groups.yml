@@ -41,7 +41,7 @@ Header:
   Version: 1
 
 Body:
-  - Id: 0
+  - Id: 1
     # group 0 is the default group for every new account
     Name: Player
     Level: 0
@@ -53,7 +53,7 @@ Body:
       can_trade: true
       can_party: true
       attendance: true
-  - Id: 1
+  - Id: 0
     Name: Super Player
     # Can do everything Players can and more
     Inherit:
