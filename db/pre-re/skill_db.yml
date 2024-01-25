@@ -1804,23 +1804,23 @@ Body:
         - Level: 1
           Amount: 100
         - Level: 2
-          Amount: 200
+          Amount: 100
         - Level: 3
-          Amount: 300
+          Amount: 100
         - Level: 4
-          Amount: 400
+          Amount: 100
         - Level: 5
-          Amount: 500
+          Amount: 100
         - Level: 6
-          Amount: 500
+          Amount: 100
         - Level: 7
-          Amount: 500
+          Amount: 100
         - Level: 8
-          Amount: 500
+          Amount: 100
         - Level: 9
-          Amount: 500
+          Amount: 100
         - Level: 10
-          Amount: 500
+          Amount: 100
   - Id: 43
     Name: AC_OWL
     Description: Owl's Eye
