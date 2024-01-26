@@ -1799,28 +1799,28 @@ Body:
         Plagiarism: true
         Reproduce: true
     Requires:
-      SpCost: 15
+      SpCost: 14
       ZenyCost:
         - Level: 1
           Amount: 100
         - Level: 2
-          Amount: 100
+          Amount: 200
         - Level: 3
-          Amount: 100
+          Amount: 200
         - Level: 4
-          Amount: 100
+          Amount: 200
         - Level: 5
-          Amount: 100
+          Amount: 200
         - Level: 6
-          Amount: 100
+          Amount: 200
         - Level: 7
-          Amount: 100
+          Amount: 200
         - Level: 8
-          Amount: 100
+          Amount: 200
         - Level: 9
-          Amount: 100
+          Amount: 200
         - Level: 10
-          Amount: 100
+          Amount: 250
   - Id: 43
     Name: AC_OWL
     Description: Owl's Eye
@@ -1861,7 +1861,7 @@ Body:
       - Level: 9
         Time: 220000
       - Level: 10
-        Time: 240000
+        Time: 350000
     Requires:
       SpCost:
         - Level: 1
@@ -2193,7 +2193,7 @@ Body:
       - Level: 9
         Time: 270000
       - Level: 10
-        Time: 300000
+        Time: 1800000
       - Level: 11
         Time: 300000
     Requires:
@@ -2220,6 +2220,7 @@ Body:
           Amount: 50
       Weapon:
         2hSword: true
+        1hSword: true
     Status: TwoHandQuicken
   - Id: 61
     Name: KN_AUTOCOUNTER
@@ -2341,7 +2342,7 @@ Body:
     HitCount: 1
     CastCancel: true
     AfterCastActDelay: 3000
-    Duration1: 60000
+    Duration1: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -2410,7 +2411,7 @@ Body:
       - Level: 4
         Time: 150000
       - Level: 5
-        Time: 180000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -2425,7 +2426,7 @@ Body:
           Amount: 30
       ItemCost:
         - Item: Holy_Water
-          Amount: 1
+          Amount: 0
     Status: Aspersio
   - Id: 69
     Name: PR_BENEDICTIO
@@ -2676,7 +2677,7 @@ Body:
       - Level: 4
         Time: 25000
       - Level: 5
-        Time: 30000
+        Time: 90000
     Requires:
       SpCost: 20
     Status: Gloria
@@ -2745,7 +2746,7 @@ Body:
     DamageFlags:
       IgnoreAtkCard: true
       IgnoreDefense: true
-    Range: 5
+    Range: 8
     Hit: Single
     HitCount: 1
     Element: Holy
@@ -7079,7 +7080,7 @@ Body:
       - Level: 9
         Time: 270000
       - Level: 10
-        Time: 300000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -7104,6 +7105,7 @@ Body:
           Amount: 60
       Weapon:
         2hSpear: true
+        1hSpear: true
     Status: SpearQuicken
   - Id: 259
     Name: MO_IRONHAND
@@ -7173,7 +7175,7 @@ Body:
     HitCount: 1
     Requires:
       SpCost: 14
-      SpiritSphereCost: 1
+      SpiritSphereCost: 0
   - Id: 265
     Name: MO_DODGE
     Description: Dodge
@@ -11924,7 +11926,7 @@ Body:
       - Level: 4
         Time: 300000
       - Level: 5
-        Time: 350000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -11986,7 +11988,7 @@ Body:
       - Level: 4
         Time: 300000
       - Level: 5
-        Time: 350000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -12026,7 +12028,7 @@ Body:
       - Level: 4
         Time: 300000
       - Level: 5
-        Time: 350000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -12066,7 +12068,7 @@ Body:
       - Level: 4
         Time: 300000
       - Level: 5
-        Time: 350000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -12106,7 +12108,7 @@ Body:
       - Level: 4
         Time: 300000
       - Level: 5
-        Time: 350000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -12146,7 +12148,7 @@ Body:
       - Level: 4
         Time: 300000
       - Level: 5
-        Time: 350000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -12186,7 +12188,7 @@ Body:
       - Level: 4
         Time: 300000
       - Level: 5
-        Time: 350000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -12226,7 +12228,7 @@ Body:
       - Level: 4
         Time: 300000
       - Level: 5
-        Time: 350000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -12266,7 +12268,7 @@ Body:
       - Level: 4
         Time: 300000
       - Level: 5
-        Time: 350000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -12306,7 +12308,7 @@ Body:
       - Level: 4
         Time: 300000
       - Level: 5
-        Time: 350000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -12346,7 +12348,7 @@ Body:
       - Level: 4
         Time: 300000
       - Level: 5
-        Time: 350000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -12386,7 +12388,7 @@ Body:
       - Level: 4
         Time: 300000
       - Level: 5
-        Time: 350000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -12426,7 +12428,7 @@ Body:
       - Level: 4
         Time: 300000
       - Level: 5
-        Time: 350000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -12455,7 +12457,7 @@ Body:
     Hit: Single
     HitCount: 1
     SplashArea: -1
-    Duration1: 150000
+    Duration1: 1800000
     Requires:
       SpCost: 64
       Weapon:
@@ -12502,7 +12504,7 @@ Body:
       - Level: 4
         Time: 300000
       - Level: 5
-        Time: 350000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -12542,7 +12544,7 @@ Body:
       - Level: 4
         Time: 300000
       - Level: 5
-        Time: 350000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -12707,8 +12709,8 @@ Body:
     HitCount: 1
     Element: Endowed
     Knockback: 2
-    CastTime: 100
-    AfterCastActDelay: 500
+    CastTime: 10
+    AfterCastActDelay: 10
     Requires:
       SpCost:
         - Level: 1
@@ -12735,8 +12737,8 @@ Body:
     Hit: Single
     HitCount: 1
     Element: Endowed
-    CastTime: 100
-    AfterCastActDelay: 500
+    CastTime: 10
+    AfterCastActDelay: 10
     Duration1: 2000
     Requires:
       SpCost:
@@ -13564,7 +13566,7 @@ Body:
       - Level: 4
         Time: 300000
       - Level: 5
-        Time: 350000
+        Time: 1800000
     Requires:
       SpCost:
         - Level: 1
@@ -13718,7 +13720,7 @@ Body:
     HitCount: 3
     Element: Weapon
     Requires:
-      SpCost: 20
+      SpCost: 10
       Ammo:
         Arrow: true
         Dagger: true
@@ -13730,7 +13732,7 @@ Body:
         Cannonball: true
         Throwweapon: true
       AmmoAmount: 1
-      SpiritSphereCost: 1
+      SpiritSphereCost: 0
   - Id: 503
     Name: GS_BULLSEYE
     Description: Bulls Eye
@@ -14052,7 +14054,7 @@ Body:
     HitCount: 1
     Element: Weapon
     SplashArea: 3
-    AfterCastActDelay: 1000
+    AfterCastActDelay: 500
     AfterCastWalkDelay: 1000
     Duration1: 1000
     Requires:
@@ -14076,12 +14078,12 @@ Body:
         - Level: 9
           Amount: 48
         - Level: 10
-          Amount: 50
+          Amount: 30
       Weapon:
         Revolver: true
       Ammo:
         Bullet: true
-      AmmoAmount: 10
+      AmmoAmount: 5
     Unit:
       Id: Dummyskill
       Layout: 3
@@ -14145,6 +14147,7 @@ Body:
           Amount: 48
       Weapon:
         Gatling: true
+        Revolver: true
     Status: GatlingFever
   - Id: 518
     Name: GS_DUST
@@ -14445,9 +14448,9 @@ Body:
       IgnoreFlee: true
     Range: 9
     Hit: Multi_Hit
-    HitCount: 3
+    HitCount: 6
     Element: Weapon
-    AfterCastActDelay: 1000
+    AfterCastActDelay: 700
     Requires:
       SpCost:
         - Level: 1
@@ -15030,7 +15033,7 @@ Body:
       - Level: 9
         Count: 11
       - Level: 10
-        Count: 12
+        Count: 15
     Element: Water
     CopyFlags:
       Skill:
@@ -15057,7 +15060,7 @@ Body:
       - Level: 9
         Time: 6300
       - Level: 10
-        Time: 7000
+        Time: 5000
     Requires:
       SpCost:
         - Level: 1
@@ -33449,7 +33452,7 @@ Body:
       - Level: 9
         Time: 220000
       - Level: 10
-        Time: 240000
+        Time: 900000
     Requires:
       SpCost:
         - Level: 1
@@ -33509,7 +33512,7 @@ Body:
       - Level: 9
         Time: 220000
       - Level: 10
-        Time: 240000
+        Time: 900000
     CastTimeFlags:
       IgnoreDex: true
       IgnoreStatus: true
