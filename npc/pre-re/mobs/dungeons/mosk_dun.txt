@@ -21,7 +21,7 @@ mosk_dun01,64,236,100,100	monster	Les	1881,7,10000
 mosk_dun01,99,162,100,100	monster	Wood Goblin	1880,15,10000
 mosk_dun01,99,162,100,100	monster	Les	1881,7,10000
 mosk_dun01,150,80,100,5	monster	Wood Goblin	1880,30,10000
-mosk_dun01,150,80,100,5	monster	Les	1881,15,10000
+mosk_dun01,150,80,100,5	monster	Les	1881,75,10000
 mosk_dun01,241,177,10,10	monster	Wood Goblin	1880,3,10000
 mosk_dun01,241,177,10,10	monster	Les	1881,2,10000
 mosk_dun01,198,223,10,10	monster	Wood Goblin	1880,3,10000
