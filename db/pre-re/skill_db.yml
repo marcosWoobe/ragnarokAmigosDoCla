@@ -4014,7 +4014,7 @@ Body:
       - Level: 4
         Time: 40000
       - Level: 5
-        Time: 50000
+        Time: 150000
     Requires:
       SpCost:
         - Level: 1
@@ -10234,7 +10234,7 @@ Body:
       - Level: 4
         Time: 55000
       - Level: 5
-        Time: 60000
+        Time: 360000
     Duration2:
       - Level: 1
         Time: 20000
@@ -10245,7 +10245,7 @@ Body:
       - Level: 4
         Time: 50000
       - Level: 5
-        Time: 60000
+        Time: 360000
     Requires:
       SpCost:
         - Level: 1
@@ -10739,8 +10739,8 @@ Body:
       - Level: 9
         Time: 2000
       - Level: 10
-        Time: 2000
-    AfterCastWalkDelay: 2000
+        Time: 1000
+    AfterCastWalkDelay: 1000
     CastDelayFlags:
       IgnoreStatus: true
     Requires:
@@ -13808,7 +13808,7 @@ Body:
     Hit: Single
     HitCount: 1
     AfterCastActDelay: 1000
-    Duration1: 60000
+    Duration1: 360000
     Requires:
       SpCost: 30
       SpiritSphereCost: 4
@@ -32364,10 +32364,10 @@ Body:
       TargetTrap: true
     Range: -2
     Hit: Single
-    HitCount: 1
+    HitCount: 2
     Element: Weapon
     SplashArea: 1
-    Knockback: 1
+    Knockback: 0
     CastTime: 700
     Requires:
       SpCost:
