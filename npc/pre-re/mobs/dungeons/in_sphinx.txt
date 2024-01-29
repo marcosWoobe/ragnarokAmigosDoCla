@@ -27,7 +27,7 @@ in_sphinx1,0,0	monster	Matyr	1146,10
 in_sphinx2,0,0	monster	Drainliar	1111,10
 in_sphinx2,0,0	monster	Requiem	1164,50
 in_sphinx2,0,0	monster	Zerom	1178,80
-in_sphinx2,0,0	monster	Matyr	1146,20
+in_sphinx2,0,0	monster	Matyr	1146,50
 
 //==================================================
 // In_sphinx3 - Sphinx F3

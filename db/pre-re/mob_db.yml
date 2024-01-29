@@ -37769,6 +37769,8 @@ Body:
         Rate: 200
       - Item: Gate_Keeper
         Rate: 5
+        Item: Victorious_Coronet
+        Rate: 1
       - Item: Gate_KeeperDD
         Rate: 5
       - Item: Improved_Tights

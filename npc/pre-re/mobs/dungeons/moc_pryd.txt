@@ -52,7 +52,7 @@ moc_pryd04,0,0	monster	Matyr	1146,20
 //==================================================
 moc_pryd05,0,0	monster	Minorous	1149,60
 moc_pryd05,0,0	monster	Mummy	1041,10
-moc_pryd05,0,0	monster	Verit	1032,50
+moc_pryd05,0,0	monster	Verit	1032,75
 
 //==================================================
 // moc_pryd06 - Inside Pyramid B2
