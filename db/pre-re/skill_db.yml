@@ -5290,7 +5290,7 @@ Body:
     Status: Loud
   - Id: 156
     Name: AL_HOLYLIGHT
-    Description: Holy Light
+    Description: MIKAHAEL TEARS
     MaxLevel: 1
     Type: Magic
     TargetType: Attack
@@ -5298,14 +5298,14 @@ Body:
       IsQuest: true
     Range: 9
     Hit: Single
-    HitCount: 1
-    Element: Holy
+    HitCount: 5
+    Element: Weapon
     CopyFlags:
       Skill:
         Plagiarism: true
         Reproduce: true
     CastCancel: true
-    CastTime: 2000
+    CastTime: 1000
     Requires:
       SpCost: 15
   - Id: 157
