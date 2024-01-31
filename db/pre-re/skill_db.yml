@@ -2283,7 +2283,6 @@ Body:
       Splash: true
     Flags:
       TargetTrap: true
-    Range: -2
     Hit: Single
     HitCount: 2
     Element: Weapon
@@ -2292,7 +2291,7 @@ Body:
       Skill:
         Plagiarism: true
         Reproduce: true
-    CastTime: 200
+    CastTime: 100
     Requires:
       SpCost:
         - Level: 1
