@@ -2283,13 +2283,11 @@ Body:
       Splash: true
     Flags:
       TargetTrap: true
-      NoKnockback: true
     Range: -2
     Hit: Single
     HitCount: 2
     Element: Weapon
     SplashArea: 2
-    Knockback: 0
     CopyFlags:
       Skill:
         Plagiarism: true
