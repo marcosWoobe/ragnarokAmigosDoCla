@@ -36015,15 +36015,15 @@ Body:
     EquipLevelMin: 70
     View: 43
     Trade:
-      NoDrop: false
-      NoTrade: false
+      NoDrop: true
+      NoTrade: true
       NoSell: true
-      NoCart: false
+      NoCart: true
       NoGuildStorage: true
       NoMail: true
       NoAuction: true
     Script: |
-      bonus bMaxHPrate,7;
+      bonus bMaxHPrate,15;
       bonus bSPrecovRate,5;
   - Id: 5806
     AegisName: Poem_Natalia_Hat

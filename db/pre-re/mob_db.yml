@@ -1731,8 +1731,6 @@ Body:
         Rate: 150
       - Item: Cakram
         Rate: 100
-      - Item: Black_Musang_Hat
-        Rate: 63
       - Item: Osiris_Card
         Rate: 1
         StealProtected: true
@@ -2100,8 +2098,6 @@ Body:
         Rate: 3686
       - Item: Oridecon
         Rate: 2700
-      - Item: Bright_Fury
-        Rate: 63
       - Item: Doppelganger_Card
         Rate: 1
         StealProtected: true
@@ -5087,8 +5083,6 @@ Body:
         Rate: 3200
       - Item: Krasnaya
         Rate: 100
-      - Item: Ifrit's_Ear
-        Rate: 63
       - Item: Drake_Card
         Rate: 1
         StealProtected: true
@@ -7192,8 +7186,6 @@ Body:
         Rate: 300
       - Item: Bazerald
         Rate: 80
-      - Item: L_Magestic_Goat
-        Rate: 63
       - Item: Pharaoh_Card
         Rate: 1
         StealProtected: true
@@ -7293,8 +7285,6 @@ Body:
         Rate: 2900
       - Item: Weihna
         Rate: 100
-      - Item: Whikebain_Ears
-        Rate: 63
       - Item: Phreeoni_Card
         Rate: 1
         StealProtected: true
@@ -11311,8 +11301,6 @@ Body:
         Rate: 4559
       - Item: Loard_Circlet
         Rate: 1
-      - Item: Gang_Scarf
-        Rate: 63
       - Item: Knight_Windstorm_Card
         Rate: 1
         StealProtected: true
@@ -11370,8 +11358,6 @@ Body:
         Rate: 3977
       - Item: Oridecon
         Rate: 2900
-      - Item: Hat_Of_Outlaw
-        Rate: 63
       - Item: Garm_Card
         Rate: 1
         StealProtected: true
@@ -14040,8 +14026,6 @@ Body:
         Rate: 160
       - Item: Star_Crumb
         Rate: 250
-      - Item: Angel_Spirit
-        Rate: 1
       - Item: Majoruros_Card
         Rate: 1
         StealProtected: true
@@ -16168,8 +16152,6 @@ Body:
         Rate: 1
       - Item: Blue_Potion
         Rate: 1000
-      - Item: B_Dragon_Hat
-        Rate: 1
       - Item: Succubus_Card
         Rate: 1
         StealProtected: true
@@ -20993,8 +20975,6 @@ Body:
         Rate: 10
       - Item: Yggdrasilberry
         Rate: 3000
-      - Item: Dress_Hat
-        Rate: 63
       - Item: Amon_Ra_Card
         Rate: 1
         StealProtected: true
@@ -27958,8 +27938,6 @@ Body:
         Rate: 10
       - Item: Cursed_Seal
         Rate: 50
-      - Item: Robo_Eye
-        Rate: 1
       - Item: Retribution_Card
         Rate: 1
         StealProtected: true
@@ -28454,8 +28432,6 @@ Body:
         Rate: 10
       - Item: Stone_Buckler
         Rate: 50
-      - Item: Ramen_Hat
-        Rate: 1
       - Item: Acidus_Card
         Rate: 1
         StealProtected: true
@@ -28628,8 +28604,6 @@ Body:
         Rate: 800
       - Item: Great_Nature
         Rate: 20
-      - Item: Satanic_Chain_P
-        Rate: 1
       - Item: Dragonball_Green
         Rate: 100
       - Item: Ferus__Card
@@ -29293,8 +29267,6 @@ Body:
         Rate: 10
       - Item: Curved_Sword
         Rate: 15
-      - Item: Mini_Propeller_
-        Rate: 1
       - Item: Aliot_Card
         Rate: 1
         StealProtected: true
@@ -30254,8 +30226,6 @@ Body:
     Drops:
       - Item: Valhalla_Flower
         Rate: 500
-      - Item: J_Captain_Hat
-        Rate: 63
       - Item: Old_Violet_Box
         Rate: 100
       - Item: Valkyrja's_Shield
@@ -30790,8 +30760,6 @@ Body:
         Rate: 3000
       - Item: Frozen_Rose
         Rate: 100
-      - Item: Rideword_Hat
-        Rate: 1
       - Item: Oridecon
         Rate: 10
       - Item: Elunium
@@ -32795,8 +32763,6 @@ Body:
         Rate: 10
       - Item: Piercing_Staff
         Rate: 10
-      - Item: Binit_Doll_Hat
-        Rate: 1
       - Item: Kasa_Card
         Rate: 1
         StealProtected: true
@@ -34811,8 +34777,6 @@ Body:
         Rate: 5000
       - Item: Loard_Circlet
         Rate: 1
-      - Item: Cookie_Hat
-        Rate: 63
   - Id: 1886
     AegisName: G_MAVKA
     Name: Mavka
@@ -35772,8 +35736,6 @@ Body:
         Rate: 3500
       - Item: Cross_Shield
         Rate: 15
-      - Item: Alice_Doll
-        Rate: 1
   - Id: 1920
     AegisName: MOROCC_3
     Name: Incarnation of Morocc
@@ -37721,8 +37683,6 @@ Body:
         Rate: 20
       - Item: Elunium
         Rate: 5
-      - Item: Anubis_Helm
-        Rate: 1
       - Item: Life_Link
         Rate: 1
       - Item: Cardo
@@ -37769,8 +37729,6 @@ Body:
         Rate: 200
       - Item: Gate_Keeper
         Rate: 5
-        Item: Victorious_Coronet
-        Rate: 1
       - Item: Gate_KeeperDD
         Rate: 5
       - Item: Improved_Tights
@@ -38151,8 +38109,6 @@ Body:
         Rate: 120
       - Item: Brigan
         Rate: 4850
-      - Item: Whikebain_Ears
-        Rate: 1
       - Item: Hilsrion_Card
         Rate: 1
         StealProtected: true

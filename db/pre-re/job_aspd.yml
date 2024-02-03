@@ -88,9 +88,9 @@ Body:
       Baby: true
       Super_Baby: true
     BaseASPD:
-      Fist: 500
-      Dagger: 650
-      1hSword: 700
+      Fist: 1500
+      Dagger: 1350
+      1hSword: 1300
       1hAxe: 800
       Mace: 700
       2hMace: 700

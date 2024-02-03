@@ -41,19 +41,27 @@ Header:
   Version: 1
 
 Body:
-  - Id: 1
+  - Id: 0
     # group 0 is the default group for every new account
     Name: Player
     Level: 0
     Commands:
       changedress: true
       resurrect: true
+      showexp: true
+      mobinfo: true
+      autotrade: true
+      whodrops: true
+      refresh: true
+      autoloot: true
+      whereis: true
+      duel: true
     Permissions:
       # without this basic permissions regular players could not trade or party
       can_trade: true
       can_party: true
       attendance: true
-  - Id: 0
+  - Id: 1
     Name: Super Player
     # Can do everything Players can and more
     Inherit:

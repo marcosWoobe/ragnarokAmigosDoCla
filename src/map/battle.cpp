@@ -1383,7 +1383,7 @@ bool battle_status_block_damage(struct block_list *src, struct block_list *targe
 			unit_set_walkdelay(target, gettick(), delay, 1);
 #ifdef RENEWAL
 			if (sc->getSCE(SC_SHRINK))
-				sc_start(src, target, SC_STUN, 50, skill_lv, skill_get_time2(skill_id, skill_lv));
+				sc_start(target, src, SC_STUN, 50, skill_lv, skill_get_time2(skill_id, skill_lv));
 #else
 			if (sc->getSCE(SC_SHRINK) && rnd() % 100 < 5 * sce->val1)
 				skill_blown(target, src, skill_get_blewcount(CR_SHRINK, 1), -1, BLOWN_NONE);
@@ -2979,7 +2979,7 @@ static bool is_attack_critical(struct Damage* wd, struct block_list *src, struct
 #ifdef RENEWAL
 				cri += 300; // !TODO: Confirm new bonus
 #else
-				cri += 400;
+				cri += 200;
 #endif
 				break;
 			case NJ_KIRIKAGE:
@@ -3145,7 +3145,7 @@ static bool is_attack_hitting(struct Damage* wd, struct block_list *src, struct 
 			//It is proven that bonus is applied on final hitrate, not hit.
 			case SM_BASH:
 			case MS_BASH:
-				hitrate += hitrate * 6 * skill_lv / 100;
+				hitrate += hitrate * 5 * skill_lv / 100;
 				break;
 			case MS_MAGNUM:
 			case SM_MAGNUM:
@@ -4249,7 +4249,7 @@ static int battle_calc_attack_skill_ratio(struct Damage* wd, struct block_list *
 	switch(skill_id) {
 		case SM_BASH:
 		case MS_BASH:
-			skillratio += 40 * skill_lv;
+			skillratio += 30 * skill_lv;
 			break;
 		case SM_MAGNUM:
 		case MS_MAGNUM:
@@ -4331,7 +4331,7 @@ static int battle_calc_attack_skill_ratio(struct Damage* wd, struct block_list *
 			break;
 		case KN_BOWLINGBASH:
 		case MS_BOWLINGBASH:
-			skillratio += 50 * skill_lv;
+			skillratio += 40 * skill_lv;
 			break;
 		case AS_GRIMTOOTH:
 			skillratio += 20 * skill_lv;
@@ -4412,7 +4412,7 @@ static int battle_calc_attack_skill_ratio(struct Damage* wd, struct block_list *
 #ifdef RENEWAL
 			skillratio += -100 + skill_lv * 80;
 #else
-			skillratio += -100 + skill_lv * 80;
+			skillratio += 30 * skill_lv;
 #endif
 			break;
 		case NPC_DARKCROSS:
@@ -4472,8 +4472,6 @@ static int battle_calc_attack_skill_ratio(struct Damage* wd, struct block_list *
 				skillratio *= 2;
 #else
 			skillratio += 50 + 50 * skill_lv;
-			if (sd && sd->status.weapon == W_KNUCKLE)
-				skillratio *= 2;
 #endif
 			break;
 		case MO_COMBOFINISH:
@@ -4555,7 +4553,7 @@ static int battle_calc_attack_skill_ratio(struct Damage* wd, struct block_list *
 				if (wd->miscflag & 2) // Splash damage bonus
 					skillratio += -100 + 140 * skill_lv;
 				else
-					skillratio += 100 + 200 * skill_lv;
+					skillratio += 100 + 50 * skill_lv;
 				break;
 			}
 			[[fallthrough]];
@@ -4579,7 +4577,7 @@ static int battle_calc_attack_skill_ratio(struct Damage* wd, struct block_list *
 			skillratio += 400 + 100 * skill_lv;
 			RE_LVL_DMOD(100);
 #else
-			skillratio += 400 + 100 * skill_lv;
+			skillratio += 100 + 100 * skill_lv;
 #endif
 			break;
 		case AS_SPLASHER:
@@ -6311,7 +6309,7 @@ static void battle_calc_attack_post_defense(struct Damage* wd, struct block_list
 #ifdef RENEWAL
 			ATK_ADD(wd->damage, wd->damage2, (3 + sc->getSCE(SC_AURABLADE)->val1) * status_get_lv(src)); // !TODO: Confirm formula
 #else
-			ATK_ADD(wd->damage, wd->damage2, 40 * sc->getSCE(SC_AURABLADE)->val1);
+			ATK_ADD(wd->damage, wd->damage2, 20 * sc->getSCE(SC_AURABLADE)->val1);
 #endif
 		}
 	}
@@ -9408,7 +9406,7 @@ enum damage_lv battle_weapon_attack(struct block_list* src, struct block_list* t
 #ifdef RENEWAL
 		int triple_rate = 30; //Base Rate
 #else
-		int triple_rate = 50; //Base Rate
+		int triple_rate = 30 - skillv; //Base Rate
 #endif
 
 		if (sc && sc->getSCE(SC_SKILLRATE_UP) && sc->getSCE(SC_SKILLRATE_UP)->val1 == MO_TRIPLEATTACK) {

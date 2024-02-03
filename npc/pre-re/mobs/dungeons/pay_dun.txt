@@ -25,12 +25,12 @@ pay_dun00,140,140,5,5	monster	Black Mushroom	1084,3,360000,180000
 //==================================================
 // pay_dun01 - Payon Cave F2
 //==================================================
-pay_dun01,0,0	monster	Drainliar	1111,1
+pay_dun01,0,0	monster	Drainliar	1111,5
 pay_dun01,0,0	monster	Eggyra	1116,15
-pay_dun01,0,0	monster	Soldier Skeleton	1028,80,300000,150000
-pay_dun01,0,0	monster	Archer Skeleton	1016,80,300000,150000
+pay_dun01,0,0	monster	Soldier Skeleton	1028,50,300000,150000
+pay_dun01,0,0	monster	Archer Skeleton	1016,30,300000,150000
 pay_dun01,235,54,10,10	monster	Black Mushroom	1084,7,900000,450000
-pay_dun01,0,0	monster	Red Plant	1078,1,180000,90000
+pay_dun01,0,0	monster	Red Plant	1078,10,180000,90000
 
 //==================================================
 // pay_dun02 - Payon Cave F3
@@ -86,7 +86,7 @@ pay_dun02,55,254,10,10	monster	Red Plant	1078,4,180000,90000
 //==================================================
 // pay_dun03 - Payon Cave F4
 //==================================================
-pay_dun03,0,0	monster	Sohee	1170,80
+pay_dun03,0,0	monster	Sohee	1170,50
 pay_dun03,0,0	monster	Munak	1026,3
 pay_dun03,0,0	monster	Bongun	1188,3
 pay_dun03,0,0	monster	Nine Tail	1180,1

@@ -98,7 +98,7 @@ Body:
             Bonus: 350
             Chances:
               - Type: Normal
-                Rate: 6000
+                Rate: 8000
                 Price: 2000
                 Material: Elunium
                 BreakingRate: 10000
@@ -111,7 +111,7 @@ Body:
             Bonus: 420
             Chances:
               - Type: Normal
-                Rate: 4000
+                Rate: 7000
                 Price: 2000
                 Material: Elunium
                 BreakingRate: 10000
@@ -124,7 +124,7 @@ Body:
             Bonus: 490
             Chances:
               - Type: Normal
-                Rate: 4000
+                Rate: 6000
                 Price: 2000
                 Material: Elunium
                 BreakingRate: 10000
@@ -138,7 +138,7 @@ Body:
             BlacksmithBlessingAmount: 1
             Chances:
               - Type: Normal
-                Rate: 2000
+                Rate: 4000
                 Price: 2000
                 Material: Elunium
                 BreakingRate: 10000
@@ -152,7 +152,7 @@ Body:
             BlacksmithBlessingAmount: 2
             Chances:
               - Type: Normal
-                Rate: 2000
+                Rate: 3000
                 Price: 2000
                 Material: Elunium
                 BreakingRate: 10000
@@ -166,7 +166,7 @@ Body:
             BlacksmithBlessingAmount: 4
             Chances:
               - Type: Normal
-                Rate: 1000
+                Rate: 2000
                 Price: 2000
                 Material: Elunium
                 BreakingRate: 10000
@@ -262,7 +262,7 @@ Body:
             BlacksmithBlessingAmount: 1
             Chances:
               - Type: Normal
-                Rate: 6000
+                Rate: 7000
                 Price: 50
                 Material: Phracon
                 BreakingRate: 10000
@@ -277,7 +277,7 @@ Body:
             BlacksmithBlessingAmount: 2
             Chances:
               - Type: Normal
-                Rate: 4000
+                Rate: 5000
                 Price: 50
                 Material: Phracon
                 BreakingRate: 10000
@@ -292,7 +292,7 @@ Body:
             BlacksmithBlessingAmount: 4
             Chances:
               - Type: Normal
-                Rate: 2000
+                Rate: 3000
                 Price: 50
                 Material: Phracon
                 BreakingRate: 10000
@@ -374,7 +374,7 @@ Body:
             RandomBonus: 500
             Chances:
               - Type: Normal
-                Rate: 6000
+                Rate: 7000
                 Price: 200
                 Material: Emveretarcon
                 BreakingRate: 10000
@@ -389,7 +389,7 @@ Body:
             BlacksmithBlessingAmount: 1
             Chances:
               - Type: Normal
-                Rate: 4000
+                Rate: 6000
                 Price: 200
                 Material: Emveretarcon
                 BreakingRate: 10000
@@ -404,7 +404,7 @@ Body:
             BlacksmithBlessingAmount: 2
             Chances:
               - Type: Normal
-                Rate: 2000
+                Rate: 3000
                 Price: 200
                 Material: Emveretarcon
                 BreakingRate: 10000
@@ -490,7 +490,7 @@ Body:
             RandomBonus: 800
             Chances:
               - Type: Normal
-                Rate: 6000
+                Rate: 8000
                 Price: 5000
                 Material: Oridecon
                 BreakingRate: 10000
@@ -504,7 +504,7 @@ Body:
             RandomBonus: 1600
             Chances:
               - Type: Normal
-                Rate: 5000
+                Rate: 6000
                 Price: 5000
                 Material: Oridecon
                 BreakingRate: 10000
@@ -519,7 +519,7 @@ Body:
             BlacksmithBlessingAmount: 1
             Chances:
               - Type: Normal
-                Rate: 2000
+                Rate: 4000
                 Price: 5000
                 Material: Oridecon
                 BreakingRate: 10000
@@ -534,7 +534,7 @@ Body:
             BlacksmithBlessingAmount: 2
             Chances:
               - Type: Normal
-                Rate: 2000
+                Rate: 3000
                 Price: 5000
                 Material: Oridecon
                 BreakingRate: 10000
@@ -610,7 +610,7 @@ Body:
             RandomBonus: 1300
             Chances:
               - Type: Normal
-                Rate: 6000
+                Rate: 8000
                 Price: 20000
                 Material: Oridecon
                 BreakingRate: 10000
@@ -624,7 +624,7 @@ Body:
             RandomBonus: 2600
             Chances:
               - Type: Normal
-                Rate: 4000
+                Rate: 6000
                 Price: 20000
                 Material: Oridecon
                 BreakingRate: 10000
@@ -638,7 +638,7 @@ Body:
             RandomBonus: 3900
             Chances:
               - Type: Normal
-                Rate: 4000
+                Rate: 5000
                 Price: 20000
                 Material: Oridecon
                 BreakingRate: 10000
@@ -653,7 +653,7 @@ Body:
             BlacksmithBlessingAmount: 1
             Chances:
               - Type: Normal
-                Rate: 2000
+                Rate: 3000
                 Price: 20000
                 Material: Oridecon
                 BreakingRate: 10000

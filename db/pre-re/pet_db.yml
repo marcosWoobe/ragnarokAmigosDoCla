@@ -62,7 +62,7 @@ Body:
     FoodItem: Apple_Juice
     Fullness: 3
     IntimacyFed: 50
-    CaptureRate: 2000
+    CaptureRate: 10000
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
       
@@ -76,8 +76,8 @@ Body:
     EquipItem: Backpack
     FoodItem: Yellow_Herb
     Fullness: 4
-    IntimacyFed: 40
-    CaptureRate: 1500
+    IntimacyFed: 50
+    CaptureRate: 10000
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
       
@@ -91,8 +91,8 @@ Body:
     EquipItem: Backpack
     FoodItem: Green_Herb
     Fullness: 5
-    IntimacyFed: 30
-    CaptureRate: 1000
+    IntimacyFed: 50
+    CaptureRate: 10000
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
       
@@ -106,8 +106,8 @@ Body:
     EquipItem: Silk_Ribbon
     FoodItem: Carrot_Juice
     Fullness: 4
-    IntimacyFed: 40
-    CaptureRate: 1500
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -122,8 +122,8 @@ Body:
     EquipItem: Tiny_Egg_Shell
     FoodItem: Red_Herb
     Fullness: 4
-    IntimacyFed: 40
-    CaptureRate: 2000
+    IntimacyFed: 50
+    CaptureRate: 10000
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
       
@@ -137,8 +137,8 @@ Body:
     EquipItem: Monster_Oxygen_Mask
     FoodItem: Pet_Food
     Fullness: 6
-    IntimacyFed: 30
-    CaptureRate: 1500
+    IntimacyFed: 50
+    CaptureRate: 10000
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
       
@@ -152,8 +152,8 @@ Body:
     EquipItem: Monster_Oxygen_Mask
     FoodItem: Iron_Ore
     Fullness: 5
-    IntimacyFed: 20
-    CaptureRate: 1000
+    IntimacyFed: 50
+    CaptureRate: 10000
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
       
@@ -167,8 +167,8 @@ Body:
     EquipItem: Monster_Oxygen_Mask
     FoodItem: Red_Gemstone
     Fullness: 5
-    IntimacyFed: 10
-    CaptureRate: 500
+    IntimacyFed: 50
+    CaptureRate: 10000
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
       
@@ -182,8 +182,8 @@ Body:
     EquipItem: Green_Lace
     FoodItem: Pet_Food
     Fullness: 7
-    IntimacyFed: 40
-    CaptureRate: 1500
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -198,8 +198,8 @@ Body:
     EquipItem: Transparent_Headgear
     FoodItem: Pet_Food
     Fullness: 6
-    IntimacyFed: 40
-    CaptureRate: 1000
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -214,8 +214,8 @@ Body:
     EquipItem: Rocker_Glasses
     FoodItem: Pet_Food
     Fullness: 1
-    IntimacyFed: 30
-    CaptureRate: 1500
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -230,8 +230,8 @@ Body:
     EquipItem: Bark_Shorts
     FoodItem: Pet_Food
     Fullness: 3
-    IntimacyFed: 30
-    CaptureRate: 1500
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -246,8 +246,8 @@ Body:
     EquipItem: Bark_Shorts
     FoodItem: Pet_Food
     Fullness: 3
-    IntimacyFed: 20
-    CaptureRate: 1000
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -262,8 +262,8 @@ Body:
     EquipItem: Battered_Pot
     FoodItem: Pet_Food
     Fullness: 4
-    IntimacyFed: 30
-    CaptureRate: 1000
+    IntimacyFed: 50
+    CaptureRate: 10000
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
       
@@ -277,8 +277,8 @@ Body:
     EquipItem: Red_Muffler
     FoodItem: Pet_Food
     Fullness: 4
-    IntimacyFed: 30
-    CaptureRate: 1000
+    IntimacyFed: 50
+    CaptureRate: 10000
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
       
@@ -292,8 +292,8 @@ Body:
     EquipItem: Monkey_Circlet
     FoodItem: Banana_Juice
     Fullness: 5
-    IntimacyFed: 20
-    CaptureRate: 1000
+    IntimacyFed: 50
+    CaptureRate: 10000
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
       
@@ -307,8 +307,8 @@ Body:
     EquipItem: Wild_Flower
     FoodItem: Pet_Food
     Fullness: 5
-    IntimacyFed: 20
-    CaptureRate: 500
+    IntimacyFed: 50
+    CaptureRate: 10000
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
       
@@ -322,8 +322,8 @@ Body:
     EquipItem: Punisher
     FoodItem: Pet_Food
     Fullness: 3
-    IntimacyFed: 20
-    CaptureRate: 500
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -338,8 +338,8 @@ Body:
     EquipItem: Wig
     FoodItem: Pet_Food
     Fullness: 4
-    IntimacyFed: 20
-    CaptureRate: 500
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -354,8 +354,8 @@ Body:
     EquipItem: Golden_Bell
     FoodItem: Pet_Food
     Fullness: 3
-    IntimacyFed: 10
-    CaptureRate: 500
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -370,8 +370,8 @@ Body:
     EquipItem: Queen's_Hair_Ornament
     FoodItem: Pet_Food
     Fullness: 3
-    IntimacyFed: 10
-    CaptureRate: 500
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -386,8 +386,8 @@ Body:
     EquipItem: Stellar_Hairpin
     FoodItem: Pet_Food
     Fullness: 4
-    IntimacyFed: 20
-    CaptureRate: 500
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -403,8 +403,8 @@ Body:
     EquipItem: Pacifier
     FoodItem: Shoot
     Fullness: 2
-    IntimacyFed: 10
-    CaptureRate: 500
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -421,8 +421,8 @@ Body:
     EquipItem: Skull_Helm
     FoodItem: Honey
     Fullness: 2
-    IntimacyFed: 10
-    CaptureRate: 200
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -438,8 +438,8 @@ Body:
     EquipItem: Sword_Of_Grave_Keeper
     FoodItem: Pet_Food
     Fullness: 4
-    IntimacyFed: 30
-    CaptureRate: 500
+    IntimacyFed: 50
+    CaptureRate: 10000
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
       
@@ -452,8 +452,8 @@ Body:
     EggItem: Zherlthsh_Egg
     FoodItem: Immortal_Heart
     Fullness: 7
-    IntimacyFed: 10
-    CaptureRate: 300
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -469,8 +469,8 @@ Body:
     EggItem: Alice_Egg
     FoodItem: White_Potion
     Fullness: 2
-    IntimacyFed: 20
-    CaptureRate: 800
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -485,7 +485,7 @@ Body:
     FoodItem: Green_Herb
     Fullness: 3
     IntimacyFed: 50
-    CaptureRate: 2000
+    CaptureRate: 10000
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
       
@@ -499,7 +499,7 @@ Body:
     FoodItem: Scell
     Fullness: 3
     IntimacyFed: 50
-    CaptureRate: 2000
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -514,7 +514,7 @@ Body:
     FoodItem: Bun_
     Fullness: 3
     IntimacyFed: 50
-    CaptureRate: 2000
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -576,8 +576,8 @@ Body:
     EggItem: Wanderer_Egg
     FoodItem: Spirit_Liquor
     Fullness: 2
-    IntimacyFed: 20
-    CaptureRate: 800
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -590,7 +590,7 @@ Body:
     EggItem: New_Year_Doll_Egg
     FoodItem: Mojji
     Fullness: 3
-    IntimacyFed: 30
+    IntimacyFed: 50
     CaptureRate: 800
     SpecialPerformance: false
   - Mob: GOLEM
@@ -599,8 +599,8 @@ Body:
     EquipItem: Windup_Spring
     FoodItem: Mystic_Stone
     Fullness: 7
-    IntimacyFed: 20
-    CaptureRate: 500
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -615,8 +615,8 @@ Body:
     EquipItem: Star_Hairband
     FoodItem: Small_Snow_Flower
     Fullness: 3
-    IntimacyFed: 10
-    CaptureRate: 500
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -630,8 +630,8 @@ Body:
     EquipItem: Queen's_Coronet
     FoodItem: Apple_Pudding
     Fullness: 3
-    IntimacyFed: 10
-    CaptureRate: 200
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -646,8 +646,8 @@ Body:
     EquipItem: Spirit_Chain_
     FoodItem: Damp_Darkness
     Fullness: 7
-    IntimacyFed: 20
-    CaptureRate: 500
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -662,8 +662,8 @@ Body:
     EquipItem: Nice_Badge
     FoodItem: Big_Cell
     Fullness: 7
-    IntimacyFed: 10
-    CaptureRate: 50
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -678,8 +678,8 @@ Body:
     EquipItem: Black_Butterfly_Mask
     FoodItem: Vital_Flower_
     Fullness: 3
-    IntimacyFed: 10
-    CaptureRate: 200
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -693,8 +693,8 @@ Body:
     EquipItem: Ball_Mask
     FoodItem: Vital_Flower
     Fullness: 3
-    IntimacyFed: 10
-    CaptureRate: 50
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -708,8 +708,8 @@ Body:
     EquipItem: Hell_Horn
     FoodItem: Fresh_Plant
     Fullness: 3
-    IntimacyFed: 10
-    CaptureRate: 200
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -723,8 +723,8 @@ Body:
     EquipItem: Wine_On_Sleeve
     FoodItem: Grilled_Rice_Cake
     Fullness: 7
-    IntimacyFed: 20
-    CaptureRate: 500
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -738,8 +738,8 @@ Body:
     EquipItem: Summer_Fan
     FoodItem: Well_Ripened_Berry
     Fullness: 3
-    IntimacyFed: 15
-    CaptureRate: 200
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -754,8 +754,8 @@ Body:
     EquipItem: Jade_Trinket
     FoodItem: Morning_Dew
     Fullness: 3
-    IntimacyFed: 15
-    CaptureRate: 500
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -770,8 +770,8 @@ Body:
     EquipItem: Apro_Hair
     FoodItem: Plant_Neutrient
     Fullness: 7
-    IntimacyFed: 20
-    CaptureRate: 500
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -785,8 +785,8 @@ Body:
     EquipItem: Death_Coil
     FoodItem: Sunset_On_The_Rock
     Fullness: 3
-    IntimacyFed: 10
-    CaptureRate: 200
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -800,8 +800,8 @@ Body:
     EquipItem: Fashionable_Glasses
     FoodItem: Pumpkin_Pie_
     Fullness: 3
-    IntimacyFed: 15
-    CaptureRate: 200
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -816,8 +816,8 @@ Body:
     EquipItem: Golden_Earing
     FoodItem: Flavored_Alcohol
     Fullness: 3
-    IntimacyFed: 10
-    CaptureRate: 500
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -831,8 +831,8 @@ Body:
     EquipItem: Green_Lucky_Bag
     FoodItem: Fish_With_Blue_Back
     Fullness: 7
-    IntimacyFed: 20
-    CaptureRate: 200
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
@@ -847,8 +847,8 @@ Body:
     EquipItem: Round_Hair_Ornament
     FoodItem: Traditional_Cookie
     Fullness: 7
-    IntimacyFed: 10
-    CaptureRate: 2000
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
   - Mob: IMP
     TameItem: Flaming_Ice
@@ -856,8 +856,8 @@ Body:
     EquipItem: Horn_Protector
     FoodItem: Flame_Gemstone
     Fullness: 3
-    IntimacyFed: 10
-    CaptureRate: 200
+    IntimacyFed: 50
+    CaptureRate: 10000
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
