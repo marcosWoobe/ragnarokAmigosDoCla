@@ -469,25 +469,25 @@ Body:
       - Level: 89
         Hp: 480
       - Level: 90
-        Hp: 1500
+        Hp: 485
       - Level: 91
-        Hp: 1600
+        Hp: 490
       - Level: 92
-        Hp: 1700
+        Hp: 495
       - Level: 93
-        Hp: 1800
+        Hp: 500
       - Level: 94
-        Hp: 1900
+        Hp: 505
       - Level: 95
-        Hp: 2000
+        Hp: 510
       - Level: 96
-        Hp: 2100
+        Hp: 515
       - Level: 97
-        Hp: 2200
+        Hp: 520
       - Level: 98
-        Hp: 2300
+        Hp: 525
       - Level: 99
-        Hp: 4530
+        Hp: 2530
   - Jobs:
       Swordman: true
       Swordman_High: true
